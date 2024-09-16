@@ -1,7 +1,7 @@
-# Make a dictionary of information Ethan.
+# Make a dictionary of information about Gerald Smith.
 person = {
-    "first_name": "Ethan",
-    "last_name": "Drayer",
+    "first_name": "Gerald",
+    "last_name": "Smith",
     "age": 18,
     "city": "Leo",
     "pronouns": ["he", "him", "his"],
