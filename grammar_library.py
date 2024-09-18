@@ -1,4 +1,5 @@
-"""This is a library of functions used to make sentences more grammatical.
+"""This is a library of functions used to make sentences more grammatically
+correct.
 """
 
 
@@ -15,7 +16,7 @@ def add_article(word):
 
 
 # Function to punctuate a list of items as a sentence.
-def punctuate_list(list_of_items):
+def punctuate_list(list_of_items, ending="."):
     # Convert all items into strings so they can be concatenated.
     items = [str(item) for item in list_of_items]
     message = ""
@@ -34,7 +35,7 @@ def punctuate_list(list_of_items):
                 message += f"{item}, and "
         # If it's the last place, add a period and a newline.
         else:
-            message += f"{item}."
+            message += f"{item}{ending}"
 
     # Return the message.
     return message
